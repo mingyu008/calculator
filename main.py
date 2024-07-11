@@ -1,5 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget
+from PyQt5.QtWidgets import *
 class Calculator(QWidget):
   def __init__(self):
     super().__init__()
@@ -9,8 +9,9 @@ class Calculator(QWidget):
     self.setWindowTitle('Calculator')
     self.resize(256,256)
     self.show()
-    if __name__ == '__main__':
-      app = QApplication(sys.argv)
-      view = Calculator()
-      sys.exit(app.exec_())
-      
+
+
+if __name__ == '__main__':
+  app = QApplication(sys.argv)
+  view = Calculator()
+  sys.exit(app.exec_())
