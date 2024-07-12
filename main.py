@@ -10,8 +10,12 @@ class Calculator(QWidget):
     self.resize(256,256)
     self.show()
 
+<<<<<<< HEAD
     // dev - main - stash - commit - merge - 1 - 2gi11 -commit1
 
+=======
+    // dev - main - stash - commit - merge - 1 - 2gi11 -commit1 -commit2 -commit3
+>>>>>>> 7ff66a5 (3)
 if __name__ == '__main__':
   app = QApplication(sys.argv)
   view = Calculator()
