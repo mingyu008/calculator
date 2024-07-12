@@ -9,7 +9,7 @@ class Calculator(QWidget):
     self.setWindowTitle('Calculator')
     self.resize(256,256)
     self.show()
-
+    
 if __name__ == '__main__':
   app = QApplication(sys.argv)
   view = Calculator()
