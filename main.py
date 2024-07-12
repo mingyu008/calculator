@@ -4,10 +4,6 @@ class Calculator(QWidget):
   def __init__(self):
     super().__init__()
     self.initUI()
-<<<<<<< HEAD
-=======
-
->>>>>>> parent of 1479e40 (merge)
   
   def initUI(self):
     self.setWindowTitle('Calculator')
